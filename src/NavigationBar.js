@@ -12,7 +12,7 @@ class NavigationBar extends React.Component {
 
         return (
 
-                <Navbar bg = "navbarBackgroundColor">
+                <Navbar bg = "navbarBackgroundColor" variant = "dark">
 
                     <Navbar.Brand>
 

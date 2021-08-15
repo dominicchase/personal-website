@@ -10,6 +10,8 @@ import About from './About';
 
 import Contact from './Contact';
 
+import ImageSlider from './ImageSlider';
+
 class App extends React.Component {
 
 	render() {
@@ -18,7 +20,9 @@ class App extends React.Component {
 
 			<>
 
-				<NavigationBar />
+                <ImageSlider />
+
+				{/* <NavigationBar />
 
 				<Switch>
 
@@ -28,7 +32,7 @@ class App extends React.Component {
 
 					<Route path = "/contact" component = {Contact} />
 
-				</Switch>
+				</Switch> */}
 
 			</>
 

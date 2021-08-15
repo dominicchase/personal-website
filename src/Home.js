@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 import { Button } from 'react-bootstrap';
 
+import { seconds } from './Interval';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 
 class Home extends React.Component {
 
@@ -16,9 +16,11 @@ class Home extends React.Component {
 
             <>
 
+                {console.log("interval: " + seconds)}
+
                 <Link to = "/about">
 
-                    <Button variant = "primary"> About Dominic </Button>
+                    <Button variant = "light"> About Dominic </Button>
 
                 </Link>
 
