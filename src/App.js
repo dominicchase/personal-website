@@ -10,19 +10,17 @@ import About from './About';
 
 import Contact from './Contact';
 
-import ImageSlider from './ImageSlider';
+import { Container } from 'react-bootstrap';
 
 class App extends React.Component {
 
 	render() {
 
 		return (
-
+			
 			<>
 
-                <ImageSlider />
-
-				{/* <NavigationBar />
+				<NavigationBar />
 
 				<Switch>
 
@@ -32,11 +30,13 @@ class App extends React.Component {
 
 					<Route path = "/contact" component = {Contact} />
 
-				</Switch> */}
+				</Switch>	
 
 			</>
 
-		);	
+			
+
+		)	
 	}
 }
 

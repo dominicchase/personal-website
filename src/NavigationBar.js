@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Navbar, Nav } from 'react-bootstrap';
 
-import './Styles.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,7 +11,7 @@ class NavigationBar extends React.Component {
 
         return (
 
-                <Navbar bg = "navbarBackgroundColor" variant = "dark">
+                <Navbar className = "navbar-bg justify-content-between" variant = "dark">
 
                     <Navbar.Brand>
 
